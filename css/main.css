@@ -1,0 +1,52 @@
+/* line 1, ../sass/partials/_base.scss */
+.container-fluid {
+  max-width: 375px;
+}
+
+/* line 6, ../sass/partials/_base.scss */
+table tr td {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #ccc;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 4.5em;
+  font-weight: bold;
+  line-height: 1;
+}
+/* line 16, ../sass/partials/_base.scss */
+table tr td.picked {
+  color: #3c763d;
+}
+/* line 19, ../sass/partials/_base.scss */
+table tr td.aiPicked {
+  color: #a94442;
+}
+/* line 22, ../sass/partials/_base.scss */
+table tr td:hover {
+  cursor: not-allowed;
+}
+/* line 25, ../sass/partials/_base.scss */
+table tr td.ready:hover {
+  background-color: white;
+  cursor: pointer;
+}
+/* line 29, ../sass/partials/_base.scss */
+table tr td.aiPicked:hover, table tr td.picked:hover {
+  cursor: not-allowed;
+}
+
+/* line 35, ../sass/partials/_base.scss */
+label {
+  margin-right: .75em;
+}
+
+/* line 38, ../sass/partials/_base.scss */
+button {
+  margin-top: .5em;
+}
+
+/* line 41, ../sass/partials/_base.scss */
+small {
+  margin-left: 2em;
+}

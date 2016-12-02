@@ -1,0 +1,43 @@
+.container-fluid {
+	max-width: 375px;
+}
+table {
+	tr {
+		td {
+			width: $celSize;
+			height: $celSize;
+			border: 2px solid #ccc;
+
+			text-align: center;
+			vertical-align: middle;
+			font-size: 4.5em;
+			font-weight: bold;
+			line-height: 1;
+			&.picked {
+				color: $green;
+			}
+			&.aiPicked {
+				color: $red;
+			}
+			&:hover {
+				cursor: not-allowed;
+			}
+			&.ready:hover {
+				background-color: lighten($green, 65%);
+				cursor: pointer;
+			}
+			&.aiPicked:hover, &.picked:hover {
+				cursor: not-allowed;
+			}
+		}
+	}
+}
+label {
+	margin-right: .75em;
+}
+button {
+	margin-top: .5em;
+}
+small {
+	margin-left:2em;
+}
